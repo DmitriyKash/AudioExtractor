@@ -1,8 +1,7 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
-from moviepy.editor import VideoFileClip
-import threading
-from app.app_functions import update_progress_bar, start_extract_audio
+from tkinter import ttk
+
+from app.app_functions import start_extract_audio
 
 # Створення вікна
 root = tk.Tk()
